@@ -12,6 +12,7 @@
     "release": "changelogen --release"
   },
   "dependencies": {
+    "@apollo/client": "^3.7.1",
     "@headlessui/vue": "^1.5.0",
     "@heroicons/vue": "^1.0.6",
     "@tailwindcss/aspect-ratio": "^0.4.0",
@@ -21,11 +22,13 @@
     "@vueuse/head": "^0.7.9",
     "axios": "^0.24.0",
     "eslint-plugin-snakecasejs": "^2.2.0",
+    "graphql": "^16.6.0",
+    "graphql-tag": "^2.12.6",
     "markdown-it": "^12.3.2",
     "strapi-generate-types": "^0.1.4",
     "strapi-sdk-js": "^2.1.5",
     "three-dots": "^0.2.3",
-    "typescript": "^4.4.4",
+    "typescript": "^4.9.3",
     "vite-plugin-rewrite-all": "^0.1.2",
     "vue": "^3.2.39",
     "vue-plyr": "^7.0.0",
@@ -35,6 +38,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.18.5",
+    "@graphql-codegen/cli": "^2.15.0",
+    "@graphql-codegen/client-preset": "^1.2.1",
     "@rushstack/eslint-patch": "^1.1.4",
     "@typescript-eslint/eslint-plugin": "^5.22.0",
     "@typescript-eslint/parser": "^5.22.0",
