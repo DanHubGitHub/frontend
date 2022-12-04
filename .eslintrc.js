@@ -25,7 +25,7 @@ module.exports = {
     'no-console': [
       'error',
       {
-        allow: ['warn', 'error', 'debug'],
+        allow: ['warn', 'error', 'debug', 'info', 'clear'],
       },
     ],
     'vue/multi-word-component-names': 'off',
