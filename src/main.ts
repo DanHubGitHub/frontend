@@ -11,9 +11,13 @@ import {
 } from 'vue-query';
 import "./three-dots.css";
 import { createHead } from '@vueuse/head'
+import apolloClient from './util/gql'
+import { DefaultApolloClient } from '@vue/apollo-composable'
 
 const app = createApp(App);
 const head = createHead();
+
+app.provide(DefaultApolloClient, apolloClient)
 
 // Vue Plugins //
 app.use(head);

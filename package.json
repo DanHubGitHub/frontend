@@ -9,25 +9,22 @@
     "lint": "eslint src/**/*.{ts,js,vue} --ext .ts,.js,.vue",
     "prepare": "husky install",
     "bump": "changelogen --bump",
-    "release": "changelogen --release"
+    "release": "changelogen --release",
+    "compile": "graphql-codegen"
   },
   "dependencies": {
     "@apollo/client": "^3.7.1",
-    "@headlessui/vue": "^1.5.0",
     "@heroicons/vue": "^1.0.6",
     "@tailwindcss/aspect-ratio": "^0.4.0",
     "@tailwindcss/forms": "^0.4.0",
     "@tailwindcss/typography": "^0.5.0",
     "@types/markdown-it": "^12.2.3",
     "@vueuse/head": "^0.7.9",
-    "axios": "^0.24.0",
     "eslint-plugin-snakecasejs": "^2.2.0",
     "graphql": "^16.6.0",
     "graphql-tag": "^2.12.6",
-    "markdown-it": "^12.3.2",
     "strapi-generate-types": "^0.1.4",
     "strapi-sdk-js": "^2.1.5",
-    "three-dots": "^0.2.3",
     "typescript": "^4.9.3",
     "vite-plugin-rewrite-all": "^0.1.2",
     "vue": "^3.2.39",
@@ -37,16 +34,15 @@
     "vuex": "^4.0.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.18.5",
     "@graphql-codegen/cli": "^2.15.0",
     "@graphql-codegen/client-preset": "^1.2.1",
     "@rushstack/eslint-patch": "^1.1.4",
     "@typescript-eslint/eslint-plugin": "^5.22.0",
     "@typescript-eslint/parser": "^5.22.0",
     "@vitejs/plugin-vue": "^3.1.2",
+    "@vue/apollo-composable": "^4.0.0-beta.1",
     "@vue/eslint-config-typescript": "^11.0.2",
     "autoprefixer": "^10.4.12",
-    "babel-loader": "^8.2.5",
     "changelogen": "^0.3.0",
     "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0",
@@ -63,10 +59,7 @@
     "typescript": "^4.4.4",
     "vite": "^3.0.9",
     "vite-plugin-pages": "^0.26.0",
-    "vite-plugin-tailwind": "^0.0.4",
     "vue-eslint-parser": "^9.0.3",
-    "vue-loader": "^16.8.3",
-    "vue-tsc": "^1.0.9",
-    "webpack": "5"
+    "vue-tsc": "^1.0.9"
   }
 }
