@@ -9,7 +9,7 @@ We decided to start completely from scratch, with a brand new techstack and desi
 
 ## Live and Developement version
 
-🌱 The project is currently in a very early stage in developement, but you can still find a hostes version [here](https://dev.bergflix.de/). You can still download the latest build artifacts from the [Actions page](https://github.com/Bergflix-Remake/frontend/actions).
+🌱 The project is currently in a very early stage in developement, but you can still find a hosted version [here](https://dev.bergflix.de/). You can still download the latest build artifacts from the [Actions page](https://github.com/Bergflix-Remake/frontend/actions).
 
 ## Developement
 
